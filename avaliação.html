@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Avaliação</title>
+</head>
+<header>
+    <h3>Avaliação trimestral</h3>
+</header>
+<body>
+    <script src="./js/script.js"></script>
+    <div class="container">
+       <h1>Calculadora IMC</h1> 
+<br>
+<br>
+            Peso (em Kg)
+            <br>
+            <input type="Text" name="peso" size="15"> 
+            <br>
+            Altura (em Cm)
+            <br>
+            <input type="Text" name="alt" size="15"> 
+            <br>
+            <br>
+            <input type="button" value="Calcular IMC" onclick="calcularIMC()" name="button">
+            <input type="reset" value="Limpar Valores">
+            <br>
+            <br>
+            IMC
+            <br>
+            <input type="Text" name="massacor" id="massacor" size="15"> 
+            <br>
+            Avaliacao do IMC
+            <br> 
+            <input type="Text" name="comment" id="comment" size="15">
+           
+    <table>
+        <tbody>
+            <tr>
+                <td>IMC</td>
+                <td>CLASSIFICAÇÃO</td>
+                <td>OBESIDADE</td>
+            </tr>
+            <tr>
+                <td>MENOR DE 18.5</td>
+                <td>MAGREZA</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>ENTRE 18.5 E 24.9</td>
+                <td>NORMAL</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>ENTRE 25 E 29.9</td>
+                <td>SOBRE PESO</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>ENTRE 30 E 39.9</td>
+                <td>OBESIDADE</td>
+                <td>II</td>
+            </tr>
+            <tr>
+                <td>MAIOR QUE 40</td>
+                <td>OBESIDADE GRAVE</td>
+                <td>III</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+<footer>
+    <br>
+    Gabriel Cecconi 2b
+    <br>
+    Escola S 
+    <br>
+    Sesi Senai
+    <br>
+</footer>
+    </html>
